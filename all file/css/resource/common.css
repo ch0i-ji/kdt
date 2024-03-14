@@ -1,12 +1,10 @@
 @charset 'utf-8';
-
 @font-face {
   font-family: "Noto Sans KR";
   src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "GmarketSansMedium";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
@@ -14,7 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "GmarketSansBold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
@@ -25,47 +22,5 @@
 
 /* 
 font-family: "Font Awesome 6 Free";
-font-weight: 900; */
-
-
-:root {
-  --color-mb: #144aaa;
-  --color-sb: #f0f4ff;
-  --color-bk: #000000;
-  --color-dg: #333333;
-  --color-lg: #777777;
-  --color-wh: #ffffff;
-
-  --font-size-m: 1.312rem;
-  --font-size-s: 0.857em;
-  --font-size-f: 0.875rem;
-  --gap: 1rem;
-
-  font-family: "noto sans kr";
-}
-/* header 시작 .hd>nav>h1+.gnb+.person. */
-body {
-  background-color: lightblue;
-}
-.mw {
-  max-width: 1440px;
-  /* width: calc(100% - calc(var(--gap) * 2)); */
-  width: calc(100% - 32px);
-  margin: auto;
-}
-
-.hd > nav { border: 1px solid red;
-  display: flex;
-  justify-content: space-between;}
-
-  .hd > nav > * { border: 1px solid lightcoral;}
-
-.ham{
-  display: none;
-}
-.sub {  display: none;}
-
-.hd h1 {
-  width: 180px;
-
-}
+font-weight: 900;
+*/
