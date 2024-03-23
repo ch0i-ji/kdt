@@ -13,9 +13,17 @@
       referrerpolicy="no-referrer"
     />
     <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
+
     <!-- SWIPER js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./js/main.js" />
   </head>
+
   <body>
     <header>
       <h1>
@@ -28,20 +36,20 @@
         <a href="#">CERTIFICATIONS</a>
         <a href="#">CONTACTS</a>
       </nav>
-      <button>햄버거</button>
+      <button>햄버거버튼</button>
     </header>
     <main class="mw">
       <section class="main-sect">
-        <h2><sapn>Project</sapn> <strong>Lorem</strong></h2>
+        <h2><span>Project</span><br /><strong>Lorem</strong></h2>
+
         <!-- swiper 사진전환 https://codesandbox.io/p/sandbox/jj72j5?file=%2Findex.html%3A75%2C5-83%2C9 -->
         <div class="swiper mySwiper">
           <ul class="swiper-wrapper">
             <li class="swiper-slide">
-              <img src="#" alt="pic" />
-              <a href="#"
-                ><button class="morebutton">
-                  VIEW PROJECT <i class="fa-solid fa-arrow-right"></i></button
-              ></a>
+              <img src="#" alt="pic1" />
+            </li>
+            <li class="swiper-slide">
+              <img src="#" alt="pic2" />
             </li>
           </ul>
         </div>
@@ -58,16 +66,7 @@
           laborum rerum ducimus est a? Error beatae quae laboriosam deleniti
           natus.
         </p>
-        <a href="" class="morebutton">
-          READ MORE <i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <!-- 
-          이미지는 section 의 가상요소나 bg
-          <div class="grid1-container">
-          <div class="grid1-item"><img src="#" alt="gpic1" /></div>
-          <div class="grid1-item"><img src="#" alt="gpic2" /></div>
-          <div class="grid1-item"><img src="#" alt="gpic3" /></div>
-        </div> -->
+        <a href="#" class="morebutton"> READ MORE </a>
       </section>
 
       <section class="focus-sect">
@@ -85,41 +84,41 @@
       </section>
 
       <section class="proj-sect">
-        <h2>Our Projects</h2>
-        <ul class="gird2-container">
-          <li class="grid2-item">
-            <img src="#" alt="gpic4" />
+        <h3>Our Projects</h3>
+        <ul class="proj-con">
+          <li class="proj-item">
+            <img src="#" alt="proj1" />
             <a href="#">
-              <strong>SAMPLE Project</strong>
-              <span>view moer</span>
+              <strong>Sample Project</strong>
+              <span>VIEW MORE</span>
             </a>
           </li>
-          <li class="grid2-item">
-            <img src="#" alt="gpic5" />
+          <li class="proj-item">
+            <img src="#" alt="proj2" />
             <a href="#">
-              <strong>SAMPLE Project</strong>
-              <span>view moer</span>
+              <strong>Sample Project</strong>
+              <span>VIEW MORE</span>
             </a>
           </li>
-          <li class="grid2-item">
-            <img src="#" alt="gpic6" />
+          <li class="proj-item">
+            <img src="#" alt="proj3" />
             <a href="#">
-              <strong>SAMPLE Project</strong>
-              <span>view moer</span>
+              <strong>Sample Project</strong>
+              <span>VIEW MORE</span>
             </a>
           </li>
-          <li class="grid2-item">
-            <img src="#" alt="gpic7" />
+          <li class="proj-item">
+            <img src="#" alt="proj4" />
             <a href="#">
-              <strong>SAMPLE Project</strong>
-              <span>view moer</span>
+              <strong>Sample Project</strong>
+              <span>VIEW MORE</span>
             </a>
           </li>
-          <li class="grid2-item">
-            <img src="#" alt="gpic8" />
+          <li class="proj-item">
+            <img src="#" alt="proj5" />
             <a href="#">
-              <strong>SAMPLE Project</strong>
-              <span>view moer</span>
+              <strong>Sample Project</strong>
+              <span>VIEW MORE</span>
             </a>
           </li>
         </ul>
@@ -135,9 +134,7 @@
           <input type="email" placeholder="Email" />
           <input type="text" placeholder="Interested In" />
           <input type="text" placeholder="Message" />
-          <button type="submit" class="morebutton">
-            SEND EMAIL <i class="fa-solid fa-arrow-right"></i>
-          </button>
+          <button type="submit" class="morebutton">SEND EMAIL</button>
         </form>
       </section>
     </main>
