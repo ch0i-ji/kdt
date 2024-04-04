@@ -25,150 +25,148 @@
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href=""><img src="./img/Group 11.svg" alt="logo" /></a>
-      </h1>
-      <nav>
-        <a href="#">MAIN</a>
-        <a href="#">GALLERY</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">CERTIFICATIONS</a>
-        <a href="#">CONTACTS</a>
-      </nav>
-      <button>햄버거버튼</button>
-    </header>
-    <main class="mw">
-      <section class="main-sect">
-        <h2><span>Project</span><br /><strong>Lorem</strong></h2>
+    <div class="wrap">
+      <header>
+        <h1>
+          <a href=""><img src="./img/Group 11.svg" alt="logo" /></a>
+        </h1>
+        <nav>
+          <a href="#">MAIN</a>
+          <a href="#">GALLERY</a>
+          <a href="#">PROJECTS</a>
+          <a href="#">CERTIFICATIONS</a>
+          <a href="#">CONTACTS</a>
+        </nav>
+        <button>햄버거버튼</button>
+      </header>
 
-        <!-- swiper 사진전환 https://codesandbox.io/p/sandbox/jj72j5?file=%2Findex.html%3A75%2C5-83%2C9 -->
-        <div class="swiper mySwiper">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide">
-              <img src="#" alt="pic1" />
+      <main>
+        <section class="sec1">
+          <div class="inner mw"></div>
+          <h2><span>Project</span><br /><strong>Lorem</strong></h2>
+          <!-- swiper 사진전환 https://codesandbox.io/p/sandbox/jj72j5?file=%2Findex.html%3A75%2C5-83%2C9 -->
+          <div class="swiper mySwiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="#" alt="pic1" />
+              </li>
+              <li class="swiper-slide">
+                <img src="#" alt="pic2" />
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </section>
+        <section class="about-sect">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+            minus fugiat enim assumenda quis sint magnam provident, mollitia,
+            molestias laborum rerum ducimus est a? Error beatae quae laboriosam
+            deleniti natus.
+          </p>
+          <a href="#" class="morebutton"> READ MORE </a>
+        </section>
+        <section class="focus-sect">
+          <h3>Main Focus/Mission Statement</h3>
+          <ol class="focus-con">
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat.
             </li>
-            <li class="swiper-slide">
-              <img src="#" alt="pic2" />
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              efficitur, lectus et facilisis placerat.
+            </li>
+          </ol>
+        </section>
+        <section class="proj-sect">
+          <h3>Our Projects</h3>
+          <ul class="proj-con">
+            <li class="proj-item">
+              <img src="#" alt="proj1" />
+              <a href="#">
+                <strong>Sample Project</strong>
+                <span>VIEW MORE</span>
+              </a>
+            </li>
+            <li class="proj-item">
+              <img src="#" alt="proj2" />
+              <a href="#">
+                <strong>Sample Project</strong>
+                <span>VIEW MORE</span>
+              </a>
+            </li>
+            <li class="proj-item">
+              <img src="#" alt="proj3" />
+              <a href="#">
+                <strong>Sample Project</strong>
+                <span>VIEW MORE</span>
+              </a>
+            </li>
+            <li class="proj-item">
+              <img src="#" alt="proj4" />
+              <a href="#">
+                <strong>Sample Project</strong>
+                <span>VIEW MORE</span>
+              </a>
+            </li>
+            <li class="proj-item">
+              <img src="#" alt="proj5" />
+              <a href="#">
+                <strong>Sample Project</strong>
+                <span>VIEW MORE</span>
+              </a>
             </li>
           </ul>
+          <a href="#"> <span>ALL PROJECT</span> </a>
+        </section>
+        <section class="contact-sect">
+          <h3>Contact Us</h3>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="number" placeholder="Phone Number" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Interested In" />
+            <input type="text" placeholder="Message" />
+            <button type="submit" class="morebutton">SEND EMAIL</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="mw">
+          <div><img src="./img/Group 11 1.svg" alt="logo" /></div>
+          <div>
+            <h3>Information</h3>
+            <nav>
+              <a href="#">Main</a>
+              <a href="#">Gallery</a>
+              <a href="#">Projects</a>
+              <a href="#">Certifications</a>
+              <a href="#">Contacts</a>
+            </nav>
+          </div>
+          <div>
+            <h3>Contacts</h3>
+            <ul>
+              <li>1234 Sample Street <br />Austin Texas 78704</li>
+              <li>512.333.2222</li>
+              <li>sampleemail@gmail.com</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Social Media</h3>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+          <p>&#169;2021 All Rights Reserved</p>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </section>
-
-      <section class="about-sect">
-        <h3>About</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum minus
-          fugiat enim assumenda quis sint magnam provident, mollitia, molestias
-          laborum rerum ducimus est a? Error beatae quae laboriosam deleniti
-          natus.
-        </p>
-        <a href="#" class="morebutton"> READ MORE </a>
-      </section>
-
-      <section class="focus-sect">
-        <h3>Main Focus/Mission Statement</h3>
-        <ol class="focus-con">
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            efficitur, lectus et facilisis placerat.
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            efficitur, lectus et facilisis placerat.
-          </li>
-        </ol>
-      </section>
-
-      <section class="proj-sect">
-        <h3>Our Projects</h3>
-        <ul class="proj-con">
-          <li class="proj-item">
-            <img src="#" alt="proj1" />
-            <a href="#">
-              <strong>Sample Project</strong>
-              <span>VIEW MORE</span>
-            </a>
-          </li>
-          <li class="proj-item">
-            <img src="#" alt="proj2" />
-            <a href="#">
-              <strong>Sample Project</strong>
-              <span>VIEW MORE</span>
-            </a>
-          </li>
-          <li class="proj-item">
-            <img src="#" alt="proj3" />
-            <a href="#">
-              <strong>Sample Project</strong>
-              <span>VIEW MORE</span>
-            </a>
-          </li>
-          <li class="proj-item">
-            <img src="#" alt="proj4" />
-            <a href="#">
-              <strong>Sample Project</strong>
-              <span>VIEW MORE</span>
-            </a>
-          </li>
-          <li class="proj-item">
-            <img src="#" alt="proj5" />
-            <a href="#">
-              <strong>Sample Project</strong>
-              <span>VIEW MORE</span>
-            </a>
-          </li>
-        </ul>
-        <a href="#"> <span>ALL PROJECT</span> </a>
-      </section>
-
-      <section class="contact-sect">
-        <h3>Contact Us</h3>
-
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="number" placeholder="Phone Number" />
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Interested In" />
-          <input type="text" placeholder="Message" />
-          <button type="submit" class="morebutton">SEND EMAIL</button>
-        </form>
-      </section>
-    </main>
-
-    <footer>
-      <div class="mw">
-        <div><img src="./img/Group 11 1.svg" alt="logo" /></div>
-        <div>
-          <h3>Information</h3>
-          <nav>
-            <a href="#">Main</a>
-            <a href="#">Gallery</a>
-            <a href="#">Projects</a>
-            <a href="#">Certifications</a>
-            <a href="#">Contacts</a>
-          </nav>
-        </div>
-        <div>
-          <h3>Contacts</h3>
-          <ul>
-            <li>1234 Sample Street <br />Austin Texas 78704</li>
-            <li>512.333.2222</li>
-            <li>sampleemail@gmail.com</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Social Media</h3>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        </div>
-        <p>&#169;2021 All Rights Reserved</p>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
