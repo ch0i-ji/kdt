@@ -89,7 +89,6 @@ h3 {
   max-width: 1400px;
   width: calc(100% - 2rem);
   margin: auto;
-  border: 1px solid red;
   margin-bottom: 7%;
 }
 
@@ -195,23 +194,44 @@ h3 {
   background-color: #f3f3f3;
   display: block;
   text-wrap: wrap;
-  height: 494px;
-  padding: 3rem;
-}
-.about-sect > * {
-  position: relative;
-  left: 50%;
+  height: 500px;
+  padding: 1.5rem;
 }
 
-.about-sect p {
-  width: 50%;
-  font-size: 1.25rem;
-  line-height: 1.4;
-  margin-bottom: 80px;
+.about-sect h3::after {
+  content: url(../img/Rectangle\ 11.png);
+  position: absolute;
+
+  left: -93%;
+  top: 15%;
+}
+.about-sect h3::before {
+  content: url(../img/Rectangle\ 9.png);
+  position: absolute;
+  left: -49%;
+  top: 45%;
+}
+.about-sect p::before {
+  content: url(../img/Rectangle\ 10.png);
+  position: absolute;
+  top: 97%;
+  left: -122.5%;
+}
+
+.about-sect > * {
+  position: relative;
+  left: 54%;
 }
 
 .about-sect h3 {
   width: 50%;
+}
+
+.about-sect p {
+  width: 38%;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 80px;
 }
 
 /* section 3 */
@@ -438,7 +458,6 @@ footer > .mw {
   width: 20%;
   height: 100%;
   margin: 3% 3%;
-  border: 1px solid red;
 }
 
 .footcon h4 {
