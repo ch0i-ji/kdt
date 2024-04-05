@@ -424,9 +424,20 @@ footer > .mw {
   margin-bottom: 0;
   display: flex;
 }
-footer > .footcon div {
+
+.footcon::before {
+  content: url(../img/Group\ 11\ 1.png);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 3%;
+  left: 12%;
+}
+
+.footcon div {
+  width: 20%;
   height: 100%;
-  margin: 1% 3%;
+  margin: 3% 3%;
   border: 1px solid red;
 }
 
@@ -441,5 +452,49 @@ footer > .footcon div {
   margin-bottom: 2.5rem;
 }
 
-.footcon div a {
+.footcon div:nth-of-type(1) {
+  position: relative;
+  left: 17%;
+}
+.footcon div:nth-of-type(1) li {
+  margin-bottom: 1.2rem;
+}
+
+.footcon div:nth-of-type(2) {
+  position: relative;
+  left: 13%;
+}
+.footcon div:nth-of-type(2) li {
+  position: relative;
+  left: 15%;
+}
+.footcon div:nth-of-type(2) li:nth-of-type(1)::before {
+  content: "\f3c5";
+  position: absolute;
+  left: -10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.footcon div:nth-of-type(2) li:nth-of-type(2)::before {
+  content: "\f095";
+  position: absolute;
+  left: -10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.footcon div:nth-of-type(2) li:nth-of-type(3)::before {
+  content: "\f0e0";
+  position: absolute;
+  left: -10%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.footcon div:nth-of-type(3) {
+  position: relative;
+  left: 25%;
+}
+.footcon div:nth-of-type(3) a {
+  justify-content: space-between;
+  margin-right: 1.5rem;
 }
