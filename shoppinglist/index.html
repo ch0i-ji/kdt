@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./common.js" />
+    <title>쇼핑리스트</title>
+  </head>
+
+  <body>
+    <h1 hidden>쇼핑리스트 미니프로젝트</h1>
+    <section class="listcon grcol">
+      <header>
+        <h2>Shopping List</h2>
+      </header>
+      <ul class="items">
+        <!-- 반복 -->
+        <li class="item">
+          <span class="item_name">사과</span>
+          <i class="fas fa-trash-alt btndelete"></i>
+        </li>
+        <li class="item">
+          <span class="item_name">사과</span>
+          <i class="fas fa-trash-alt btndelete"></i>
+        </li>
+      </ul>
+      <footer class="foot">
+        <input type="text" placeholder="뭐사려고?" class="iteminput" />
+        <i class="fas fa-plus btnadd"></i>
+      </footer>
+    </section>
+  </body>
+</html>
